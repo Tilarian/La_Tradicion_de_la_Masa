@@ -1,0 +1,29 @@
+.recetas {
+    display: flex;
+    flex-direction: column;
+    background-color: $mainColor;
+    padding: 10px;
+    gap: 5px;
+
+
+    .ingredientes {
+        p {
+            text-align: left;
+        }
+    }
+
+    .pasos {
+        p {
+            text-align: justify;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        object-fit: cover;
+    }
+
+}

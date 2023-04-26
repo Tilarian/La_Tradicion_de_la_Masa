@@ -1,0 +1,29 @@
+// HOVER EN NAVBAR
+.navbar__list li{
+    transition: 300ms;
+}
+.navbar__list li:hover {
+    transform: scale(1.2);
+}
+
+
+// HOVER EN SOCIAL (FOOTER)
+.social__list li {
+    transition: 300ms;
+}
+
+.social__list li:hover {
+    transform: scale(1.5);
+}
+
+
+//ANIMACION LOGO FOOTER
+.logo {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }

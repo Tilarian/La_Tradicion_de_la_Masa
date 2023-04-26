@@ -1,0 +1,348 @@
+/* MEDIA MOBILE */
+@media screen and (min-width: 480px) {
+
+    .grilla img {
+        width: 100%;
+        min-height: 280px;
+        max-height: 100%;
+    }
+}
+
+/* MEDIA TABLET */
+@media screen and (min-width: 600px) {
+
+    .recetas {
+        img {
+            max-width: 100%;
+            max-height: 300px;
+        }
+    }
+
+    .contenedor {
+        justify-content: space-around;
+        background-color: $secondColor;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area2 area3 area4'
+        ;
+
+        .menu {
+            height: 100%;
+            width: 100%;
+        }
+
+        .social {
+            height: 100%;
+        }
+
+        .contact {
+            height: 100%;
+        }
+    }
+
+    .social__list {
+        padding-top: 30px;
+    }
+
+    .navbar__list {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .navbar__links {
+        padding: 0px;
+    }
+
+    .grilla {
+        display: grid;
+        background-color: $mainColor;
+        padding: 10px;
+        gap: 5px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area2'
+            'area1 area2'
+            'area3 area4'
+            'area3 area4'
+            'area5 area6'
+            'area5 area6'
+            'area7 area8'
+            'area7 area8'
+            'area9 area9'
+        ;
+
+        img {
+            width: 100%;
+            min-height: 350px;
+            max-height: 100%;
+        }
+
+        .foto1 {
+            grid-area: area1;
+        }
+
+        .foto2 {
+            grid-area: area2;
+        }
+
+        .foto3 {
+            grid-area: area3;
+        }
+
+        .foto4 {
+            grid-area: area4;
+        }
+
+        .foto5 {
+            grid-area: area5;
+        }
+
+        .foto6 {
+            grid-area: area6;
+        }
+
+        .foto7 {
+            grid-area: area7;
+        }
+
+        .foto8 {
+            grid-area: area8;
+        }
+
+        .foto9 {
+            grid-area: area9;
+        }
+    }
+}
+
+/* MEDIA IPAD */
+@media screen and (min-width: 768px) {
+
+    .box {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area1 area6 area6'
+            'area4 area4 area2 area2'
+            'area3 area3 area5 area5'
+        ;
+
+        .box__parrafo1 {
+            grid-area: area1;
+        }
+
+        .box__parrafo2 {
+            grid-area: area2;
+        }
+
+        .box__parrafo3 {
+            grid-area: area3;
+        }
+
+        .box__imagen1 {
+            grid-area: area4;
+        }
+
+        .box__imagen2 {
+            grid-area: area5;
+        }
+
+        .box__imagen3 {
+            grid-area: area6;
+        }
+
+        img {
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    .imginicio {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar__list {
+        gap: 25px;
+    }
+
+    .grilla {
+        background-color: $mainColor;
+        padding: 10px;
+        gap: 5px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area2 area3'
+            'area1 area2 area3'
+            'area4 area5 area6'
+            'area4 area5 area6'
+            'area7 area8 area9'
+            'area7 area8 area9'
+        ;
+
+        .grilla img {
+            width: 100%;
+            min-height: 300px;
+            max-height: 100%;
+
+            .foto1 {
+                grid-area: area1;
+            }
+
+            .foto2 {
+                grid-area: area2;
+            }
+
+            .foto3 {
+                grid-area: area3;
+            }
+
+            .foto4 {
+                grid-area: area4;
+            }
+
+            .foto5 {
+                grid-area: area5;
+            }
+
+            .foto6 {
+                grid-area: area6;
+            }
+
+            .foto7 {
+                grid-area: area7;
+            }
+
+            .foto8 {
+                grid-area: area8;
+            }
+
+            .foto9 {
+                grid-area: area9;
+            }
+        }
+    }
+}
+
+/* MEDIA DESKTOP*/
+@media screen and (min-width: 1024px) {
+
+    .recetas {
+        padding: 10px;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area2'
+            'area1 area2'
+            'area3 area4'
+            'area3 area4'
+            'area5 area6'
+            'area5 area6'
+            'area7 area7'
+            'area7 area7'
+            'area8 area8'
+            'area8 area8'
+        ;
+
+        .receta7 {
+            grid-area: area7;
+        }
+
+        .receta8 {
+            grid-area: area8;
+        }
+    }
+
+    .navbar__list {
+        gap: 30px;
+    }
+
+    .grilla {
+        background-color: $mainColor;
+        padding: 10px;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area2 area3 area3'
+            'area1 area2 area3 area3'
+            'area4 area2 area3 area3'
+            'area5 area5 area6 area7'
+            'area5 area5 area8 area9'
+
+        ;
+
+        .grilla img {
+            width: 100%;
+            min-height: 300px;
+            max-height: 100%;
+        }
+
+        .foto1 {
+            grid-area: area1;
+        }
+
+
+        .foto2 {
+            grid-area: area2;
+        }
+
+        .foto2 img {
+            height: 100%;
+        }
+
+        .foto3 {
+            grid-area: area3;
+        }
+
+        .foto3 img {
+            height: 100%;
+        }
+
+        .foto4 {
+            grid-area: area4;
+        }
+
+        .foto5 {
+            grid-area: area5;
+        }
+
+        .foto5 img {
+            height: 100%;
+        }
+
+        .foto6 {
+            grid-area: area6;
+        }
+
+        .foto7 {
+            grid-area: area7;
+        }
+
+        .foto8 {
+            grid-area: area8;
+        }
+
+        .foto8 img {
+            height: 100%;
+        }
+
+        .foto9 {
+            grid-area: area9;
+        }
+
+        .foto9 img {
+            height: 100%;
+        }
+    }
+}

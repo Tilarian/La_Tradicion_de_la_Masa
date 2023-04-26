@@ -1,0 +1,68 @@
+/* BODY */
+body {
+    margin: 0;
+    background-color: $mainColor;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+    /* MAIN */
+    main {
+
+
+        /*  PARRAFOS */
+        p {
+            font-size: 20px;
+            color: $thirdColor;
+            text-align: center;
+            padding: 20px;
+            font-family: cursive;
+
+        }
+
+        /* IMAGEN DE INICIO */
+        .imginicio {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                border-radius: 5px;
+                box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+                margin: 20px;
+            }
+        }
+
+        /* INGREDIENTES Y PASOS  */
+        .ul_1 {
+            font-size: 20px;
+            font-size: 20px;
+            color: $thirdColor;
+            text-align: left;
+            padding: 10px;
+            font-family: cursive;
+
+            li {
+                text-align: justify;
+                padding: 10px;
+            }
+        }
+
+        .ul_2 {
+            list-style: none;
+            padding-left: 0%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /* TITULOS H1 */
+        h1 {
+            font-size: 40px;
+            color: $thirdColor;
+            text-align: center;
+            font-family: cursive;
+        }
+    }
+}

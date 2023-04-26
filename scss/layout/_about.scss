@@ -1,0 +1,39 @@
+.box {
+    @extend .d-flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+
+    p {
+        text-align: justify;
+    }
+
+
+    .box__imagen1 {
+        img {
+            max-width: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        }
+
+    }
+    .box__imagen2 {
+        img {
+            max-width: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        }
+
+    }
+    .box__imagen3 {
+        img {
+            max-width: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        }
+
+    }
+}
