@@ -1,6 +1,8 @@
 /* BODY */
 html {
     overflow-x: hidden;
+
+
     body {
         margin: 0;
         background-color: $mainColor;
@@ -8,12 +10,11 @@ html {
         flex-direction: column;
         min-height: 100vh;
         width: 100vw;
-        overflow-x: hidden;
-    
+
         /* MAIN */
         main {
-    
-    
+
+            
             /*  PARRAFOS */
             p {
                 font-size: 20px;
@@ -21,21 +22,21 @@ html {
                 text-align: center;
                 padding: 20px;
                 font-family: cursive;
-    
+
             }
-    
+
             /* IMAGEN DE INICIO */
             .imginicio {
                 display: flex;
                 flex-direction: column;
-    
+
                 img {
                     border-radius: 5px;
                     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
                     margin: 20px;
                 }
             }
-    
+
             /* INGREDIENTES Y PASOS  */
             .ul_1 {
                 font-size: 20px;
@@ -44,13 +45,13 @@ html {
                 text-align: left;
                 padding: 10px;
                 font-family: cursive;
-    
+
                 li {
                     text-align: justify;
                     padding: 10px;
                 }
             }
-    
+
             .ul_2 {
                 list-style: none;
                 padding-left: 0%;
@@ -58,7 +59,7 @@ html {
                 flex-direction: column;
                 gap: 15px;
             }
-    
+
             /* TITULOS H1 */
             h1 {
                 font-size: 40px;
