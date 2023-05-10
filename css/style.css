@@ -148,7 +148,6 @@ html body main p {
   color: #6e2f12;
   text-align: center;
   padding: 20px;
-  font-family: cursive;
 }
 html body main .imginicio {
   display: flex;
@@ -165,7 +164,6 @@ html body main .ul_1 {
   color: #6e2f12;
   text-align: left;
   padding: 10px;
-  font-family: cursive;
 }
 html body main .ul_1 li {
   text-align: justify;
@@ -182,6 +180,9 @@ html body main h1 {
   font-size: 40px;
   color: #6e2f12;
   text-align: center;
+  font-family: cursive;
+}
+html body main h2 {
   font-family: cursive;
 }
 
